@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Information about Astronomy</title>
+</head>
+<body>
+    <section class="banner">
+        <img class="layer-1" src="assets/bg.png">
+        <img class="layer-2" src="assets/meteor.png">
+
+        <div class="layer-3">
+            <h1>The Wonderful World of Astronomy</h1>
+            <p>Astronomy is the scientific study of celestial objects, including stars, planets, galaxies, and the universe as a whole. It seeks to understand the origins, evolution, and behavior of these objects through the observation and analysis of their light and other forms of radiation. Astronomers use powerful telescopes and advanced instruments to explore the vast cosmos, unravel the mysteries of black holes, discover exoplanets, and track the movement of celestial bodies.</p>
+            <a href="#teks">Get Started!</a>
+        </div>
+        <img class="layer-4" src="assets/4.png">
+        <img class="layer-5" src="assets/5.png">
+        <img src="assets/6.png">
+    </section>
+
+    <section class="content" id="teks">
+        <h1 class="h1">History of Astronomy</h1>
+        <p>The history of astronomy is a fascinating journey through human civilization's quest to understand the cosmos. It dates back to ancient civilizations like the Babylonians, who meticulously recorded celestial events such as eclipses as early as the 2nd millennium BCE. However, it was the Greeks who laid the foundation for modern astronomy around the 5th century BCE. Philosopher-scientists like Aristotle and Ptolemy proposed geocentric models of the universe, where Earth was considered the center, and celestial bodies moved in complex orbits around it.</p>
+        <p>One of the most significant revolutions in the history of astronomy occurred in the 16th century when Nicolaus Copernicus published his heliocentric model, which suggested that the Earth and other planets revolve around the Sun. This groundbreaking concept sparked a scientific revolution, leading to the work of astronomers like Johannes Kepler, who formulated the laws of planetary motion, and Galileo Galilei, who made groundbreaking telescopic observations of celestial objects, including the moons of Jupiter and the phases of Venus. These discoveries marked the transition from an Earth-centered to a Sun-centered view of the universe and set the stage for further advancements in the field of astronomy, eventually culminating in our modern understanding of the cosmos.</p>
+
+        <h1 class="h1">Most Impactful Astronomer</h1>
+        <p>One of the most impactful astronomers in the history of the field is undoubtedly Galileo Galilei. Galileo's pioneering work in the early 17th century revolutionized our understanding of the cosmos and laid the groundwork for modern observational astronomy. Using a telescope he designed and built, Galileo made groundbreaking observations that included the discovery of Jupiter's four largest moons (now known as the Galilean moons), the phases of Venus, and the irregular surface of the Moon. Perhaps his most controversial contribution was his support for the heliocentric model of the solar system proposed by Copernicus, which challenged the prevailing geocentric view of the time. Galileo's relentless pursuit of empirical evidence and his willingness to challenge established dogma marked a turning point in the history of science, fostering a spirit of inquiry that continues to drive astronomical and scientific discoveries to this day. His work not only expanded our understanding of the universe but also played a pivotal role in the broader scientific revolution of the Renaissance era.</p>
+
+        <h1 class="h1">Important Astrological Discoveries</h1>
+        <p>Astrology and astronomy are distinct fields, with astrology being a belief system based on the influence of celestial bodies on human lives, while astronomy is a science focused on the study of celestial objects and phenomena. Therefore, I will provide you with information about some of the most important astronomical discoveries in history:</p>
+        <ol>
+            <li><b>Heliocentrism:</b> One of the most fundamental discoveries in astronomy was the heliocentric model of the solar system, proposed by Nicolaus Copernicus in the 16th century. This revolutionary idea suggested that the Earth and other planets orbit the Sun, as opposed to the geocentric model that placed Earth at the center of the universe. Copernicus' work laid the foundation for our modern understanding of the solar system and fundamentally changed the way we view our place in the cosmos.</li>
+            <li><b>Kepler's Laws of Planetary Motion:</b> Johannes Kepler's three laws of planetary motion, formulated in the early 17th century, were a monumental achievement in the field of astronomy. Kepler's laws describe the elliptical orbits of planets around the Sun and established a precise mathematical framework for understanding planetary motion. These laws provided critical insights into the mechanics of celestial bodies and paved the way for Isaac Newton's development of the law of universal gravitation, which further revolutionized our understanding of how objects in the universe interact.</li>
+            <li><b>The Discovery of Exoplanets:</b> In recent decades, the discovery of exoplanets, or planets outside our solar system, has been a game-changer in astronomy. Astronomers have identified thousands of exoplanets using techniques like the transit method and radial velocity measurements. This revelation has expanded our understanding of planetary systems, the potential for habitable worlds beyond Earth, and the prevalence of planets in the Milky Way galaxy. It has also fueled the search for extraterrestrial life and has sparked public interest in the possibility of life elsewhere in the universe.</li>
+        </ol>
+        <p>These astronomical discoveries represent just a fraction of the many breakthroughs that have shaped our understanding of the cosmos. Astronomy continues to be a dynamic and evolving field, with ongoing research and discoveries that deepen our knowledge of the universe and our place within it.</p>
+
+        <h1 class="h1">The Future of Astronomy</h1>
+        <p>The future of astronomy holds exciting prospects as technology, and our understanding of the universe continue to advance. One of the most promising areas is the study of exoplanets, where astronomers are increasingly focused on characterizing the atmospheres and potential habitability of distant worlds. With advanced space telescopes like the James Webb Space Telescope (JWST) set to launch, we can expect to discover a wealth of new exoplanets and gain unprecedented insights into their compositions. Additionally, upcoming missions like the Nancy Grace Roman Space Telescope will further our understanding of dark matter and dark energy, two enigmatic components of the universe. These efforts will likely bring us closer to answering some of the most profound questions about the cosmos.</p>
+        <p>Another exciting frontier is the exploration of the outer solar system and beyond. Missions like NASA's Europa Clipper and the European Space Agency's JUpiter ICy moons Explorer (JUICE) are poised to study the potential habitability of Jupiter's moon Europa and the icy moons of Jupiter and Saturn. Furthermore, the continued development of space telescopes and observatories, both in orbit and on the Moon's surface, promises to provide clearer views of the universe, free from the interference of Earth's atmosphere. As we advance in our understanding of dark matter, dark energy, and cosmic structures, we are on the cusp of unraveling some of the most profound mysteries of the universe, making the future of astronomy a thrilling and intellectually rich endeavor that will continue to captivate scientists and the public alike.</p>
+    </section>
+  
+<script type="text/javascript">
+    let layer_1 = document.querySelector('.layer-1');
+    let layer_2 = document.querySelector('.layer-2');
+    let layer_3 = document.querySelector('.layer-3');
+    let layer_4 = document.querySelector('.layer-4');
+    let layer_5 = document.querySelector('.layer-5');
+
+    window.onscroll = function() {
+        let Y = window.scrollY;
+
+        layer_1.style.transform = 'translateY('+ Y/1.5 + 'px)';
+        layer_2.style.transform = 'translateY('+ Y/2 + 'px)';
+        layer_3.style.transform = 'translateY('+ Y/1.5 + 'px)';
+        layer_4.style.transform = 'translateY('+ Y/2 + 'px)';
+        layer_5.style.transform = 'translateY('+ Y/3 + 'px)';
+    }
+</script>
+    
+</body>
+</html>
